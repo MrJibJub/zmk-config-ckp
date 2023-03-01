@@ -35,6 +35,7 @@
 				&kp LCTRL &trans &kp LALT              &kp SPACE                   &kp RALT &kp RCTRL &kp LEFT &kp DOWN &kp RIGHT
 			>;
 			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
+		};
 		lower {
 			bindings = <
 				&trans &rgb_ug RGB_TOG &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &rgb_ug RGB_EFF &trans &trans &trans &trans &trans &trans &trans   &trans
