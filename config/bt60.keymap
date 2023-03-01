@@ -36,7 +36,7 @@
 			>;
 			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
 		};
-		lower {
+		raise {
 			bindings = <
 				&trans &rgb_ug RGB_TOG &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI &rgb_ug RGB_EFF &trans &trans &trans &trans &trans &trans &trans   &trans
 				&trans  &bl BL_TOG &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &rgb_ug RGB_EFR &trans &trans &trans &trans &trans &reset
