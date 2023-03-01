@@ -43,6 +43,7 @@
 				&trans      &bl BL_DEC &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 				 &trans   &trans   &trans                   &trans                   &trans &trans &trans &trans &trans
 			>;
+			sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
 		};
 	};
 };
